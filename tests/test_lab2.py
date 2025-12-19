@@ -1,6 +1,6 @@
 import pytest, sys, os
 sys.path.append(os.path.join(os.path.dirname(__file__),'..','src'))
-from lab_2 import Lab_2
+from lab_2 import Fibonacci, BubbleSort, EratosthenSieve
 
 class TestLab:
     def test_fibonacci_negative(self):
