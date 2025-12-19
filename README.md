@@ -4,7 +4,7 @@
 ├── src
 │   └── lab_2.py
 ├── test
-│   └── test.py
+│   └── test_lab2.py
 ├── .gitignore
 ├── README.md
 └── requirements.txt
