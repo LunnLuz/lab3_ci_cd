@@ -2,7 +2,7 @@ import pytest, sys, os
 sys.path.append(os.path.join(os.path.dirname(__file__),'..','src'))
 from lab_2 import Lab_2
 
-class TextLab:
+class TestLab:
     def test_fibonacci_negative():
         """n < 1 — граничное значение"""
         assert Fibonacci(-5) == []
