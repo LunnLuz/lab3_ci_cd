@@ -1,5 +1,5 @@
 class Lab_2:
-    def Fibonacci(n):
+    def Fibonacci(self,n):
         if n < 1:
             return []
         elif n == 1:
@@ -13,7 +13,7 @@ class Lab_2:
                 fibonacci.append(fib_next)
             return fibonacci
     
-    def BubbleSort(N):
+    def BubbleSort(self,N):
         if len(N) == 0:
             return []
         for i in range(len(N)):
@@ -22,7 +22,7 @@ class Lab_2:
                     N[j], N[j+1] = N[j+1], N[j]
         return N
     
-    def EratosthenSieve(n):
+    def EratosthenSieve(self,n):
         if n < 2:
             return []
         list_erotosthen = [1] * (n+1)
